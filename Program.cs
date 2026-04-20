@@ -2,6 +2,6 @@
 {
     public static void Main(string[] args)
     {
-       GlossaryItem.ReadJSON();
+       Deserealization_3_AdyadmaRenjiro_103082400013.ReadJSON();
     }
 }

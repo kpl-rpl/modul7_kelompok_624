@@ -3,9 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
 
-namespace Jurnal7
-{
-    public class GlossaryItem
+    public class Deserealization_3_AdyadmaRenjiro_103082400013
     {
         public GlossaryData glossary { get; set; }
 
@@ -69,4 +67,3 @@ namespace Jurnal7
         public string para { get; set; }
         public List<string> GlossSeeAlso { get; set; }
     }
-}
