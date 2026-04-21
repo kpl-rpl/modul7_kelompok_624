@@ -1,0 +1,39 @@
+{
+  "members": [
+    {
+      "firstName": "Aldy",
+      "lastName": "Prastyo",
+      "gender": "male",
+      "age": 28,
+      "nim": "103082406021"
+    },
+    {
+      "firstName": "Adyadma",
+      "lastName": "Renjiro",
+      "gender": "male",
+      "age": 32,
+      "nim": "103082406013"
+    },
+    {
+      "firstName": "Aurel",
+      "lastName": "Salsabila",
+      "gender": "female",
+      "age": 20,
+      "nim": "103082400041"
+    },
+    {
+      "firstName": "Alif",
+      "lastName": "Ramadhan",
+      "gender": "male",
+      "age": 19,
+      "nim": "103082400035"
+    },
+    {
+      "firstName": "Aqsa",
+      "lastName": "Sirojudin",
+      "gender": "male",
+      "age": 19,
+      "nim": "103082400004"
+    }
+  ]
+}
