@@ -17,7 +17,7 @@ public class TeamData
     public List<Member> members { get; set; }
 }
 
-public class TeamMembers103082400035
+public class Deserealization_2_Alif Akbar Ramadhan_103082400035
 {
     public void ReadJSON()
     {
