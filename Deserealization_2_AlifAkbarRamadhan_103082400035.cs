@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-public class Deserealization_2_Alif Akbar Ramadhan_103082400035
+public class Deserealization_2_AlifAkbarRamadhan_103082400035
 {
     public string nim { get; set; }
     public string firstname { get; set; }
@@ -19,8 +19,8 @@ public class Deserealization_2_Alif Akbar Ramadhan_103082400035
         string jsonString = File.ReadAllText(path);
 
         // 🔹 Deserialization + pembuatan object DI SINI
-        List<Deserealization_2_Alif Akbar Ramadhan_103082400035> members =
-            JsonSerializer.Deserialize<List<Deserealization_2_Alif Akbar Ramadhan_103082400035>>(jsonString);
+        List<Deserealization_2_AlifAkbarRamadhan_103082400035> members =
+            JsonSerializer.Deserialize<List<Deserealization_2_AlifAkbarRamadhan_103082400035>>(jsonString);
 
         Console.WriteLine("Team member list:");
 
