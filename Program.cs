@@ -2,10 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        TeamMembers103082400035 team = new TeamMembers103082400035();
-        team.ReadJSON();
-
-        Console.WriteLine(" ");
+        Deserealization_2_AlifAkbarRamadhan_103082400035.ReadJSON();
 
         Deserealization_3_AdyadmaRenjiro_103082400013.ReadJSON();
     }
