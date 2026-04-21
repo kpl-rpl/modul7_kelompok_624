@@ -1,47 +1,32 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-public class Member
-{
-    public string nim { get; set; }
-    public string firstName { get; set; }
-    public string lastName { get; set; }
-    public int age { get; set; }
-    public string gender { get; set; }
-}
-
-public class TeamData
-{
-    public List<Member> members { get; set; }
-}
-
 public class Deserealization_2_Alif Akbar Ramadhan_103082400035
 {
-    public void ReadJSON()
+    public string nim { get; set; }
+    public string firstname { get; set; }
+    public string lastname { get; set; }
+    public int age { get; set; }
+    public string gender { get; set; }
+
+    // 🔹 Method untuk baca JSON + buat object + print
+    public static void ReadJSON()
     {
-        string fileName = "jurnal7_2_103082400035.json";
+        string path = "jurnal7_2_103082400035.json";
 
-        try
-        {
-            string jsonString = File.ReadAllText(fileName);
+        string jsonString = File.ReadAllText(path);
 
-            TeamData team = JsonSerializer.Deserialize<TeamData>(jsonString);
+        // 🔹 Deserialization + pembuatan object DI SINI
+        List<Deserealization_2_Alif Akbar Ramadhan_103082400035> members =
+            JsonSerializer.Deserialize<List<Deserealization_2_Alif Akbar Ramadhan_103082400035>>(jsonString);
 
-            Console.WriteLine("Team member list:");
-            foreach (var member in team.members)
-            {
-                Console.WriteLine($"{member.nim} {member.firstName} {member.lastName} ({member.age} {member.gender})");
-            }
-        }
-        catch (FileNotFoundException)
+        Console.WriteLine("Team member list:");
+
+        foreach (var m in members)
         {
-            Console.WriteLine($"Error: File '{fileName}' tidak ditemukan. Pastikan file ada di folder yang sama dengan program (.exe).");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Terjadi kesalahan saat parsing JSON: {ex.Message}");
+            Console.WriteLine($"{m.nim} {m.firstname} {m.lastname} {m.age} {m.gender}");
         }
     }
 }
