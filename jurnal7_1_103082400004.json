@@ -1,0 +1,15 @@
+{
+   "firstName": "Muh Aqsa",
+   "lastName": "Sirojudin",
+   "gender": "male",
+   "age": 20,
+   "address": {
+       "streetAddress": "Joyosuryo",
+       "city": "Malang",
+       "state": "East Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2XX", "name": "Nama Mata Kuliah" }
+   ]
+}
