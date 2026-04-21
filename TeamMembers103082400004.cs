@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-public class DataMahasiswa103082400004
+public class TeamMembers103082400004
 {
     public class Address
     {
