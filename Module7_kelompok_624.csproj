@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="jurnal7_1_103082400004.json" />
+  </ItemGroup>
+
 </Project>
